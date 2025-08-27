@@ -1,6 +1,6 @@
 <template>
   <a
-    href="https://wa.me/258846949523" 
+    href="https://wa.me/258875531696?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20vossos%20cursos."
     target="_blank"
     rel="noopener noreferrer"
     class="whatsapp-float"
@@ -37,7 +37,7 @@
   overflow: hidden;
 }
 
-/* Animação de pulse sutil */
+/* Animação de pulse */
 @keyframes pulse {
   0%, 100% {
     box-shadow: 
@@ -53,7 +53,6 @@
   }
 }
 
-/* Efeito de ondas no hover */
 .whatsapp-float::before {
   content: '';
   position: absolute;
@@ -110,7 +109,6 @@
   filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
 }
 
-/* Animação de entrada */
 .whatsapp-float {
   animation: slideIn 0.8s ease-out, pulse 2s infinite 1s;
 }
@@ -130,7 +128,6 @@
   }
 }
 
-/* Tooltip */
 .whatsapp-float::after {
   content: 'Fale conosco no WhatsApp';
   position: absolute;
@@ -154,7 +151,6 @@
   right: 90px;
 }
 
-/* Efeito de brilho */
 .whatsapp-float .shine {
   position: absolute;
   top: -50%;
@@ -185,7 +181,6 @@
   }
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
   .whatsapp-float {
     width: 60px;
